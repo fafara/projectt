@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="Maintenance">
+        <menu>
+            <item
+                android:id="@+id/nav_teleparam"
+                android:icon="@drawable/ic_upload"
+                android:title="Téléparamétrage" />
+
+            <item
+                android:id="@+id/nav_id_terminal"
+                android:icon="@drawable/ic_terminal"
+                android:title="ID Terminal" />
+
+        </menu>
+    </item>
+
+
+    <item android:title="Gestion des ventes">
+        <menu>
+                <item
+                    android:id="@+id/nav_transaction"
+                    android:icon="@drawable/ic_icon"
+                    android:title="Transaction(s)" />
+                <item
+                    android:id="@+id/nav_duplicata"
+                    android:icon="@drawable/ic_copy"
+                    android:title="Duplicata" />
+        </menu>
+    </item>
+
+
+
+    <item android:title="Mini Back-office">
+        <menu>
+            <item
+                android:id="@+id/nav_product"
+                android:icon="@drawable/ic_bag"
+                android:title="Catalogue" />
+            <item
+                android:id="@+id/nav_addcompte"
+                android:icon="@drawable/ic_user"
+                android:title="Compte(s) utilisateur(s)" />
+        </menu>
+    </item>
+
+    <item android:title="Application">
+        <menu>
+
+            <item
+                android:id="@+id/nav_quitter"
+                android:icon="@drawable/ic_exit"
+                android:title="Quitter" />
+
+        </menu>
+    </item>
+
+</menu>

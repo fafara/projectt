@@ -1,0 +1,70 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="70dp"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="250dp"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/qte"
+                android:layout_width="86dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:text="Qte"
+                android:textColor="@color/colorDarkgrey" />
+
+            <TextView
+                android:id="@+id/des"
+                android:layout_width="149dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:text="designation"
+                android:textColor="@color/colorDarkgrey" />
+
+            <TextView
+                android:id="@+id/ttc"
+                android:layout_width="104dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:text="pu"
+                android:textColor="@color/colorDarkgrey" />
+
+            <TextView
+                android:id="@+id/pt"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:text="pt"
+                android:textColor="@color/colorDarkgrey" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/supprimerachat"
+        android:layout_width="97dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="90dp"
+        android:layout_weight="1"
+        android:layout_marginBottom="5dp"
+        app:srcCompat="@drawable/ic_supp"
+        tools:ignore="VectorDrawableCompat" />
+
+
+
+</LinearLayout>

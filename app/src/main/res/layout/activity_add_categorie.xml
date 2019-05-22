@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddCategorie">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/txtCategorie"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:ems="10"
+            android:hint="Nom catégorie"
+            android:inputType="textPersonName" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="30dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnAjcategorie"
+                android:layout_width="311dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Ajouter" />
+
+            <Button
+                android:id="@+id/btnAnnulerCategorie"
+                android:layout_width="338dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Annuler" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
